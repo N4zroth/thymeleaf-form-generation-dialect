@@ -11,7 +11,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Annotatio used for form inputs.
+ * Annotation used for form inputs.
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
