@@ -1,8 +1,3 @@
-/*
- * SelectSourceType.java
- *
- * Created on 02.04.2017
- */
 package org.thymeleaf.dialect.formgeneration.annotation;
 
 /**

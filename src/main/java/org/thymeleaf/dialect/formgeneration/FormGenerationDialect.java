@@ -1,8 +1,3 @@
-/*
- * FormGenerationDialect.java
- *
- * Created on 02.04.2017
- */
 package org.thymeleaf.dialect.formgeneration;
 
 import java.util.HashSet;
@@ -36,6 +31,7 @@ public class FormGenerationDialect extends AbstractProcessorDialect {
     @Override
     public Set<IProcessor> getProcessors(final String dialectPrefix) {
         final Set<IProcessor> processors = new HashSet<>();
+        processors.add(new FormCreationProcessor(dialectPrefix));
         processors.add(new StandardXmlNsTagProcessor(TemplateMode.HTML, dialectPrefix));
         return processors;
     }

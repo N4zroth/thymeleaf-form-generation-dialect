@@ -1,8 +1,3 @@
-/*
- * SelectElement.java
- *
- * Created on 02.04.2017
- */
 package org.thymeleaf.dialect.formgeneration.annotation;
 
 import java.lang.annotation.ElementType;
